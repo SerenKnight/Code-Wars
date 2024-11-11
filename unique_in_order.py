@@ -1,4 +1,5 @@
 def unique_in_order(sequence):
+
     listed_sequence = list(sequence)
     new_sequence = []
 
@@ -10,4 +11,4 @@ def unique_in_order(sequence):
     return new_sequence
 
 
-unique_in_order("AAAABBBCCDAABBB")
+print(unique_in_order("AAAABBBCCDAABBB"))
